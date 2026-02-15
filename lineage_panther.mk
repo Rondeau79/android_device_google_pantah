@@ -7,6 +7,9 @@
 # Inherit some common stuff
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Inherit ViPER4AndroidFX config
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
+
 # Inherit device configuration
 DEVICE_CODENAME := panther
 DEVICE_PATH := device/google/pantah
